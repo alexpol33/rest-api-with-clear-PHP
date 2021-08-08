@@ -26,3 +26,19 @@ function getPost($connect, $id){
         echo json_encode($post);
     }
 }
+
+function addPost($connect, $data){
+    $title = $data['title'];
+    $body = $data['body'];
+
+    mysqli_query($connect, "INSERT INTO `posts` (`id`, `title`, `body`) VALUES (NULL, '$title', '$body')");
+
+    http_response_code(201);
+
+    $res = [
+        'status' => true,
+        'post_id' => mysqli_insert_id($connect)
+    ];
+
+    echo json_encode($res);
+}

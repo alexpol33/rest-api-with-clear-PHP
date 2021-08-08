@@ -1,0 +1,29 @@
+[33mcommit 48ec0ab369ad9fc734db84f37bf32b0c5782294b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Alexpol <alexpol2905@gmail.com>
+Date:   Sat Aug 7 14:12:17 2021 +0300
+
+    create function gettting 1 post from sql and insert it into index
+
+[33mcommit c25d7b2ebb860bea6a1d304cbb8013476f6bb767[m
+Author: Alexpol <alexpol2905@gmail.com>
+Date:   Sat Aug 7 12:18:52 2021 +0300
+
+    create functions file and include in index
+
+[33mcommit e3c8f7267b29a11afe910c9c888b51ac90f9ecc4[m
+Author: Alexpol <alexpol2905@gmail.com>
+Date:   Sat Aug 7 11:56:10 2021 +0300
+
+    add and setup htaccess file
+
+[33mcommit 888f61f669d02099d53e4005557e917674affe45[m
+Author: Alexpol <alexpol2905@gmail.com>
+Date:   Sat Aug 7 11:31:37 2021 +0300
+
+    create MySQL connect file
+
+[33mcommit db75d829b86b0092793bfab14a35a5f62b658e13[m
+Author: Alexpol <alexpol2905@gmail.com>
+Date:   Sat Aug 7 11:20:46 2021 +0300
+
+    initial commit

@@ -10,12 +10,20 @@ $params = explode('/', $q);
 $type = $params[0];
 $id = $params[1];
 
+$method = $_SERVER['REQUEST_METHOD'];
 
-if ($type === 'posts'){
-    if(isset($id)){
-        getPost($connect, $id);
-    }else {
-        getPosts($connect);
+
+if($method === 'GET'){
+    if ($type === 'posts'){
+        if(isset($id)){
+            getPost($connect, $id);
+        }else {
+            getPosts($connect);
+        }
     }
+}elseif ($method === 'POST'){
+    addPost($connect, $_POST);
 }
+
+
 
